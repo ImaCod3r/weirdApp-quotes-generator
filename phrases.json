@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "frase": "A alegria está na luta, na tentativa, no sofrimento envolvido e não na vitória propriamente dita.",
+    "autor": "Mahatma Gandhi"
+  },
+  {
+    "id": 2,
+    "frase": "Acredite que você pode, assim você já está no meio do caminho.",
+    "autor": "Theodore Roosevelt"
+  },
+  {
+    "id": 3,
+    "frase": "O Senhor é meu pastor, nada me faltará.",
+    "autor": "Salmos 23:1"
+  },
+  {
+    "id": 4,
+    "frase": "A melhor maneira de prever o futuro é criá-lo.",
+    "autor": "Peter Drucker"
+  },
+  {
+    "id": 5,
+    "frase": "Você nunca sabe a força que tem, até que sua única alternativa é ser forte.",
+    "autor": "Bob Marley"
+  },
+  {
+    "id": 6,
+    "frase": "Não temas, porque eu sou contigo; não te assombres, porque eu sou teu Deus.",
+    "autor": "Isaías 41:10"
+  },
+  {
+    "id": 7,
+    "frase": "Faça o que você pode, com o que você tem, onde você está.",
+    "autor": "Theodore Roosevelt"
+  },
+  {
+    "id": 8,
+    "frase": "Quem olha para fora sonha, quem olha para dentro acorda.",
+    "autor": "Carl Jung"
+  },
+  {
+    "id": 9,
+    "frase": "O caminho para começar é parar de falar e começar a fazer.",
+    "autor": "Walt Disney"
+  },
+  {
+    "id": 10,
+    "frase": "Eu sou o caminho, e a verdade, e a vida; ninguém vem ao Pai, senão por mim.",
+    "autor": "João 14:6"
+  }
+]
