@@ -28,10 +28,15 @@ body {
 }
 
 main {
+    min-width: 100%;
     max-width: 50rem;
     margin: 6.4rem auto;
 
     grid-area: main;
+}
+
+.phrase {
+    height: 15rem;
 }
 
 .phrase, .quote {
