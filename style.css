@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 62.5%;
+
+    --ff-primary: 'IBM Plex Sans', sans-serif;
+}
+
+body {
+    height: 100vh;
+    padding: 2rem;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    "main"
+    "footer";
+    grid-template-rows: auto;
+
+    color: #fff;
+    background-color: #000;
+
+    font-family: var(--ff-primary);
+}
+
+main {
+    max-width: 50rem;
+    margin: 6.4rem auto;
+
+    grid-area: main;
+}
+
+.phrase, .quote {
+    margin-bottom: 1rem;
+}
+
+.quote {
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+.author {
+    font-size: 1.4rem;
+    font-style: italic;
+}
+
+button {
+    padding: 1rem;
+}
+
+button#copy {
+    background-color: #000;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+footer {
+    grid-area: footer;
+
+    justify-self: center;
+    align-self: flex-end;
+}
