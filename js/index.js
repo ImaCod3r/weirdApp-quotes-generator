@@ -5,6 +5,8 @@ const regenerateBtn = document.getElementById('regenerate');
 const copyBtn = document.getElementById('copy');
 
 async function generatePhrase() {
+    quoteEl.classList.remove('typed');
+
     try {
         const response = await fetch("./phrases.json");
         if (!response.ok) {
@@ -20,6 +22,7 @@ async function generatePhrase() {
             if (randomPhrase && randomPhrase.frase && randomPhrase.autor) {
                 quoteEl.textContent = randomPhrase.frase;
                 authorEl.textContent = randomPhrase.autor;
+                quoteEl.classList.add('typed');
             } else {
                 throw new Error('Invalid phrase data');
             }
